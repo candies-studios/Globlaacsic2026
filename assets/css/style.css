@@ -437,3 +437,26 @@ footer {
   margin: 20px 0;
   border-radius: 8px;
 }
+
+/* Responsive Grid for Why Participate Section */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  [style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  [style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+}
