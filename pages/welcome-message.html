@@ -9,6 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/hero.css">
+    <style>
+        @media (max-width: 768px) {
+            .ceo-message-container {
+                flex-direction: column !important;
+                gap: 30px !important;
+            }
+            .ceo-image-wrapper {
+                flex: 0 0 100% !important;
+                min-width: 100% !important;
+            }
+            .ceo-text-wrapper {
+                flex: 1 !important;
+            }
+        }
+    </style>
 </head>
 <body class="has-ac-header">
     <!-- Header & Navigation -->
@@ -42,22 +57,35 @@
                     <p>Message from the Chief Organizer</p>
                 </div>
 
-                <div style="max-width: 900px; margin: 0 auto;">
-                    <div style="background: #f8f9fa; padding: 40px; border-radius: 8px; border-left: 4px solid #d4af37;">
-                        <p style="font-size: 16px; line-height: 1.9; color: #002d5c; margin-bottom: 15px; font-weight: 500;">
-                            <strong>Shri Manish Sinha</strong><br>
-                            Chief Executive Officer, CGTMSE
-                        </p>
-                        <p style="font-size: 18px; line-height: 2; color: #002d5c; margin-bottom: 30px; font-weight: 500; margin-top: 20px;">
-                            "I am pleased to welcome you to the Global Symposium on Credit Guarantee & 38th ACSIC Conference 2026, to be held on April 23-24 in Mumbai.
+                <div class="ceo-message-container" style="max-width: 1200px; margin: 0 auto; display: flex; gap: 40px; align-items: flex-start; margin-bottom: 50px;">
+                    <!-- CEO Image -->
+                    <div class="ceo-image-wrapper" style="flex: 0 0 320px; min-width: 320px;">
+                        <img src="https://globalacsic2026.in/wp-content/uploads/2026/01/KSP_5174.jpg"
+                             alt="Shri Manish Sinha, CEO CGTMSE"
+                             style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    </div>
+
+                    <!-- CEO Message -->
+                    <div class="ceo-text-wrapper" style="flex: 1;">
+                        <p style="font-size: 18px; line-height: 2; color: #002d5c; margin-bottom: 25px; font-weight: 500;">
+                            On behalf of CGTMSE, the host institution, I am pleased to welcome you to the Global Symposium on Credit Guarantee & 38th ACSIC Conference 2026, to be held on April 23-24 in Mumbai. We are honored to bring together global policymakers, financial institutions, practitioners, and thought leaders on a common platform to engage in meaningful dialogue on the evolving role of credit guarantee mechanisms.
                         </p>
                         <p style="font-size: 16px; line-height: 1.8; color: #666; margin-bottom: 20px;">
-                            Credit guarantees remain a critical tool for enhancing access to finance, strengthening risk-sharing frameworks, and supporting enterprise-led growth. This symposium brings together policymakers, financial institutions, and thought leaders to discuss evolving credit guarantee approaches and share international best practices.
+                            In a rapidly changing financial landscape, credit guarantees remain a critical tool for enhancing access to finance, strengthening risk-sharing frameworks, and supporting enterprise-led growth. As innovation continues to reshape financial systems, this symposium provides an important opportunity to exchange global perspectives, share best practices, and explore forward-looking solutions.
                         </p>
-                        <p style="font-size: 16px; line-height: 1.8; color: #666;">
-                            I am confident that your expertise will generate meaningful discussions, and I invite you to experience Mumbai's vibrant cultural and entrepreneurial character while attending the event."
+                        <p style="font-size: 16px; line-height: 1.8; color: #666; margin-bottom: 20px;">
+                            I am confident that the collective expertise of our delegates will generate meaningful discussions and actionable insights. I also invite you to experience Mumbai's vibrant cultural, historical, and entrepreneurial character during your stay, and to forge meaningful connections with fellow participants and leaders in the global financial ecosystem.
+                        </p>
+                        <p style="font-size: 16px; line-height: 1.8; color: #666; margin-bottom: 30px;">
+                            I wish you a truly rewarding experience at the Global Symposium & 38th ACSIC Conference 2026, and look forward to your valued contributions towards advancing more inclusive and sustainable financial systems globally.
+                        </p>
+                        <p style="font-weight: 600; color: #002d5c; margin-top: 25px;">
+                            Shri Manish Sinha<br>
+                            Chief Executive Officer<br>
+                            Credit Guarantee Trustee Company (India) Limited (CGTMSE)
                         </p>
                     </div>
+                </div>
 
                     <h3 style="margin-top: 50px; margin-bottom: 20px; color: #002d5c;">About the Symposium</h3>
                     <p style="font-size: 16px; line-height: 1.8; color: #666; margin-bottom: 20px;">
